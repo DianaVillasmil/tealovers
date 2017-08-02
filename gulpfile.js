@@ -28,7 +28,7 @@ gulp.task("style", function() {
 //tercera tarea llamada webserver, la cual creara un servidor web de desarrollo que se ejecutara en el localhost puerto 8000
 
 gulp.task("webserver", function() {
-	gulp.src("../tea-lovers")
+	gulp.src("./")
 		.pipe(webserver({
 			fallback: "index.html",
 			livereload: true,
